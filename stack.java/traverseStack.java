@@ -1,5 +1,5 @@
 
-import java.util.*;
+import java.util.Stack;
 
 public class traverseStack {
     public static void stack(Stack<String> st1) {

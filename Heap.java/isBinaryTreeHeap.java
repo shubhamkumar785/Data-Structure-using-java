@@ -28,7 +28,6 @@ public class isBinaryTreeHeap {
         }
         return isMaxHeap(root.left) && isMaxHeap(root.right);
     }
-
     public static boolean isCBT(Node root, int idx) {
         if (root == null) {
             return true;

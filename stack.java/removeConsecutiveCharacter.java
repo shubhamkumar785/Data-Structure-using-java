@@ -1,10 +1,10 @@
-import javav.util.Stack;
+import java.util.Stack;
 
 public class removeConsecutiveCharacter {
     public static void remove(String s) {
         int n = s.length();
         Stack<Character> st1 = new Stack<>();
-        stack<Character> st2 = new Stack<>();
+        Stack<Character> st2 = new Stack<>();
         for (int i = 0; i < n; i++) {
             char ch = s.charAt(i);
             if (st1.peek() != ch) {

@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Stack;
 
 public class ParenthesisCheck {
     public static boolean isParenthesis(String str) {

@@ -11,5 +11,6 @@ public class PriorityQueueImpl {
         System.out.println(pq.peek());
         System.out.println(pq.size());
         System.out.println(pq.remove());
+        System.out.println(pq);
     }
 }

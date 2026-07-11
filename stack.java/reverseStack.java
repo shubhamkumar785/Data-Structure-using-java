@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Stack;
 
 public class reverseStack {
     public static void reverse(Stack<Integer> st1) {

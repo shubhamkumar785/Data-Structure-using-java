@@ -22,7 +22,7 @@ public class mergeKSortedArray {
 
         int idx = 0;
         while (!heap.isEmpty()) {
-            arr1[idx++] = heap.poll();
+            arr1[idx++] = heap.remove();
         }
     }
 
